@@ -1,0 +1,31 @@
+.featured{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.featuredItem{
+    flex:1;
+    margin:0 20px;
+    padding:30px;
+    border-radius:10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.featuredTitle{
+    font-size:24px;
+}
+.featuredMoney{
+    font-size:30px;
+    font-weight: 600;
+    margin-right:10px;
+}
+.featuredSub{
+    display: block;
+    margin-top:14px;
+}
+.arrowred{
+    color:red;
+}
+.arrowblue{
+    color:rgb(25, 168, 90);
+}
