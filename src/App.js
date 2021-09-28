@@ -8,7 +8,7 @@ import ProductList from "./components/pages/productList/ProductList";
 import Product from "./components/pages/product/Product";
 import NewProduct from "./components/pages/newProduct/NewProduct";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
     return (
